@@ -1,0 +1,28 @@
+.section{
+    // background-color: black;
+    height: 686px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('https://bestanimations.com/media/transport/1614489936travelling-animated-gif-8.gif') center/cover no-repeat ;
+
+    form{
+        // background-color: black;
+        width: 20%;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .form-group{
+            margin: 10px;
+            color: white;
+        }
+
+        .heading{
+            font-size: 2rem;
+        }
+    }
+
+}

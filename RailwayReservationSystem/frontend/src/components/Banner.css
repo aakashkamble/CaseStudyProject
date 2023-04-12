@@ -1,0 +1,51 @@
+.banner{
+
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:url('https://images.pexels.com/photos/4412927/pexels-photo-4412927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    align-items: 'center';
+    background-size: cover;
+    background-position: center center ;
+    }
+    
+    .banner .banner-info{
+    
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    align-items: 'center';
+    
+    left: 475px;
+    }
+    .banner .banner-info h1{
+    position: relative;
+    font-size: 2.5rem;
+    color: rgb(15, 15, 15);
+    font-family: cursive;
+    }
+    .waviy {position: relative;
+      -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+      font-size: 60px;
+    }
+    .waviy span {
+      font-family: 'Alfa Slab One', cursive;
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      text-transform: uppercase;
+      animation: waviy 1s infinite;
+      animation-delay: calc(.1s * var(--i));
+      
+    }
+    @keyframes waviy {
+      0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+    }

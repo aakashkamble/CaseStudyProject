@@ -1,0 +1,45 @@
+.login{
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    .showcase-overlay{
+        height: 80vh;
+
+        .form-control{
+            background: none;
+            border-radius: 0;
+            border: none;
+
+            input{
+                width: 20vw;
+            }
+
+            .btn{
+                background-color:#283038;
+
+                &:hover{
+                    // margin: 10px;
+                    // font-size: 1.2rem;
+                    background-color: rgb(220, 163, 95);
+                }
+            }
+
+            .container{
+                h2{
+                    color: white;
+                }
+
+                .row{
+
+                   .table{
+                       background-color: #fff;
+                   }
+                }
+            }
+        }
+    }
+
+}

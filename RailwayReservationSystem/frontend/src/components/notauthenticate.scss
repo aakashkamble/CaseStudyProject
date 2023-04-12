@@ -1,0 +1,74 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 686px;
+    // background:transparent;
+    // background-color: rgb(220, 163, 95 , 0.6);;
+    // background: url('../assets/pexels-johannes-plenio-1165994.jpg') no-repeat center/cover;
+  
+    .box{
+         // background-color: aqua;
+         display: flex;
+         flex-direction: column;
+         align-items: center;justify-content: center;
+         // margin-top: 300px;
+
+         .heading{
+              display: flex;
+              flex:4;
+              // margin: 20px;
+              align-items: flex-end;
+              justify-content: center;
+              width: 100%;
+
+              h1{
+                   font-size: 6rem;
+                   margin-bottom: 40px;
+                   color: #252930;
+                   font-weight: 800;
+                   // width: 10vw;
+              }
+
+
+
+         }
+
+         .para{
+             flex: 2;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items:center;
+
+              P{
+                   font-size: 1.6rem;
+                   color: #252930;
+                   font-weight: 700;
+              }
+              
+              a{
+                   text-decoration: none;
+                   color:#252930;
+                   font-weight: 700;
+                   font-size: 1.4rem;
+                   
+                   &:hover{
+                        
+                        color: rgb(220, 163, 95);
+                        // text-decoration: underline;
+                        font-size: 1.6rem;
+                        transition:  all ease-in-out 0.3sec;
+
+
+                   }
+              }
+
+
+         }
+
+
+    }
+   
+}
